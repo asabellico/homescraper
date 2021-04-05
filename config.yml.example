@@ -1,0 +1,18 @@
+queries:
+  - name: query 1 (subito)
+    url: https://www.subito.it/annunci-lazio/vendita/appartamenti/roma/roma/
+    count: 100
+
+  - name: query 2 (immobiliare)
+    url: https://www.immobiliare.it/affitto-appartamenti/roma/?criterio=dataModifica&ordine=desc
+
+  - name: query 3 (casa)
+    url: https://www.casa.it/affitto/residenziale?sortType=date_desc
+
+db_path: homescraper.db
+
+twilio:
+  sid: your_twilio_sid
+  token: your_twilio_token
+  from: your_twilio_virtual_number
+  to: your_mobile_phone_number

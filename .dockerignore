@@ -1,0 +1,9 @@
+env
+.tox
+config.yml
+homescraper.db
+.pytest_cache
+src/homescraper.egg-info
+*.log
+.coverage
+.vscode
